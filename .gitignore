@@ -1,0 +1,56 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Build output
+dist/
+build/
+out/
+
+# Puppeteer Chromium cache
+.pptr/
+.user-data-dir/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Coverage
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional: ignore lock files if you prefer
+# package-lock.json
+# yarn.lock
+
+# Optional: ignore your scripts output
+scraped_data.json
+output.json
+results.json
